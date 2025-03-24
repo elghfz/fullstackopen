@@ -45,7 +45,7 @@ const App = () => {
       <Button onClick={vote} text="Vote" />
       <Title text="Anecdote with most votes :" />
       <br />
-      {anecdotes[votes.indexOf(Math.max(...votes))]} //copied here again just in case!
+       {anecdotes[votes.indexOf(Math.max(...votes))]} {/*copied here again just in case! */}
       <p>Voted for {Math.max(...votes)} times!</p>
     </div>
   )
